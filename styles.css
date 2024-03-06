@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.music-player {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#song-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.controls {
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    height: 10px;
+    background-color: #444;
+    position: relative;
+}
+
+#progress {
+    height: 100%;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#current-time,
+#duration {
+    display: inline-block;
+    font-size: 12px;
+}
